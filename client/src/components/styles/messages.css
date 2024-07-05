@@ -1,0 +1,48 @@
+.flex-grid{
+    display: flex;
+  }
+
+  .right-side{
+    flex: 0.8;
+  }
+
+  .upper-side{
+    height: 78%;
+  }
+
+  .left-fifth{
+    flex: 0.2;
+  }
+
+  .lower-fifth{
+    height: 18%;
+    margin-left: 39%;
+    margin-top: 1%;
+  }
+
+.container1 {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .container1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #bet{
+    width: 200px;
+    float: left;
+    height: 47px;
+  }

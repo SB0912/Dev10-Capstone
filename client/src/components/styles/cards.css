@@ -1,0 +1,54 @@
+.playerHand {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+.dealerHand {
+  position: fixed;
+  bottom: 57%;
+  left: 56%;
+  display: flex;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+.deck {
+  position: fixed;
+  top: 20%;
+  left: 90%;
+  display: flex;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+.hand {
+  display: flex;
+  max-width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  position: relative;
+  top: -80%;
+  left: 435%;
+  width: 150px;
+  height: 200px;
+}
+
+.hidden {
+  opacity: 1;
+}
+
+.visible {
+  opacity: 0;
+}
+
+#card2{
+  width: 32%;
+  position: fixed;
+  top: 0%;
+  left: 50%;
+}

@@ -1,0 +1,156 @@
+
+GET http://localhost:8080/api/blackjack/admin
+
+###
+PUT http://localhost:8080/api/blackjack/play
+Content-Type: application/javascript
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/blackjack/profilepage
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCbGFja0phY2stYXBwIiwic3ViIjoiYWJvc3dlbGw2Iiwicm9sZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfR3Vlc3QifV0sInVzZXJJZCI6NywiZXhwIjoxNjczNDE0NTI3fQ.iWjpxalSy6YwAHa5VgFaLUJmyMfHD1rSmkAXTSI_7TQ
+
+{
+    "username" : "aboswell6",
+    "password": "top-secret-password"
+}
+
+###
+GET http://localhost:8080/api/blackjack/profilepage
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCbGFja0phY2stYXBwIiwic3ViIjoidGVzdDEyMzQiLCJyb2xlcyI6W3siYXV0aG9yaXR5IjoiUk9MRV9Vc2VyIn1dLCJ1c2VySWQiOjksImV4cCI6MTY3MzQ1NjA5MX0.g1BxUgjEwW3dEcEOF1ucBQq0A_8YOm-GAs7D_MJ2lgU
+###
+
+GET http://localhost:8080/api/blackjack/profilepage
+
+###
+
+
+GET http://localhost:8080/api/blackjack/play
+
+###
+
+POST http://localhost:8080/api/security/login
+Content-Type: application/json
+
+{
+    "username" : "test1234",
+    "password": "test"
+}
+
+
+###
+
+POST http://localhost:8080/api/blackjack/createuser
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username" : "test1234",
+    "firstName": "testy",
+    "lastName": "Mctesty",
+    "email" : "testemail@testemail.com",
+    "passhash": "test",
+    "roleId": "1"
+}
+
+###
+PUT http://localhost:8080/api/blackjack/play/stay
+Content-Type: application/json
+Accept: application/json
+
+[
+        
+  
+   [
+      {
+        "cardId": 237,
+        "cardEnum": "FOUR",
+        "cardSuit": "HEARTS",
+        "inDeck": true,
+        "value": 4,
+        "fileDisplay": "4",
+        "url": "hearts_4.png"
+      },
+      {
+        "cardId": 272,
+        "cardEnum": "KING",
+        "cardSuit": "DIAMONDS",
+        "inDeck": true,
+        "value": 10,
+        "fileDisplay": "king",
+        "url": "diamonds_king.png"
+      }
+    ],
+
+  
+    [
+      {
+        "cardId": 266,
+        "cardEnum": "SEVEN",
+        "cardSuit": "DIAMONDS",
+        "inDeck": true,
+        "value": 7,
+        "fileDisplay": "7",
+        "url": "diamonds_7.png"
+      },
+      {
+        "cardId": 249,
+        "cardEnum": "THREE",
+        "cardSuit": "SPADES",
+        "inDeck": true,
+        "value": 3,
+        "fileDisplay": "3",
+        "url": "spades_3.png"
+      }
+    ]
+
+]
+
+###
+
+PUT http://localhost:8080/api/blackjack/play/hit
+Content-Type: application/json
+Accept: application/json
+
+
+    [
+      {
+        "cardId": 221,
+        "cardEnum": "ACE",
+        "cardSuit": "DIAMONDS",
+        "inDeck": true,
+        "value": 11,
+        "fileDisplay": "ace",
+        "url": "diamonds_ace.png"
+      },
+      {
+        "cardId": 144,
+        "cardEnum": "TWO",
+        "cardSuit": "SPADES",
+        "inDeck": true,
+        "value": 2,
+        "fileDisplay": "2",
+        "url": "spades_2.png"
+      }
+    ]
+
+
+###
+GET http://localhost:8080/api/blackjack/play/start
+
+###
+PUT http://localhost:8080/api/blackjack/play/stay
+Content-Type: application/json
+Accept: application/json
+
+['[
+    {"cardId":58,
+    "cardEnum":"SEVEN",
+    "cardSuit":"DIAMO…value":6,
+    "fileDisplay":"6",
+    "url":"spades_6.png"
+    }
+    ]']
+
+['[{"cardId":26,"cardEnum":"ACE","cardSuit":"CLUBS",…lue":4,"fileDisplay":"4","url":"diamonds_4.png"}]']

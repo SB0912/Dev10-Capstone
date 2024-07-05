@@ -1,0 +1,68 @@
+/* $cardmult: 80;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  overflow:hidden;
+}
+#hand{
+    width: 60%;
+    position: absolute;
+    height: 5px * $cardmult;
+    display: block;
+    left: 20%;
+    top: 10%;
+}
+.card{
+    width: 2.5px * $cardmult;
+    height: 3.5px * $cardmult;
+    position: absolute;
+    display: block;
+    bottom: -100px;
+    left: calc(50% - 2.5px * $cardmult);
+    background-color: white;
+    box-shadow: 0px 0px 8px 1px rgba($color: #000000, $alpha: 0.2);
+    border-radius: 5px;
+    z-index: 1;
+    transition: 0.5s left ease, 0.5s bottom ease;
+    user-select: none;
+    &:hover{
+      
+    }
+    > span{
+        display: block;
+    }
+    .value{
+        font-weight: bolder;
+        font-size: 30px;
+        margin: 5px;
+    }
+    .suit{
+
+    }
+} */
+/* #top {
+  transition: all 1s ease;
+} */
+
+/* .top {
+  position: fixed;
+  top: 20%;
+  left: 90%;
+  visibility: hidden;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  0% {
+    visibility: visible;
+  }
+  25% {
+    rotate: 10deg;
+    transform: translate(-20%, 40%);
+    visibility: hidden;
+  }
+} */

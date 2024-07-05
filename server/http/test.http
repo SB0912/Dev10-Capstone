@@ -1,0 +1,14 @@
+###
+
+POST http://localhost:8080/api/security/createuser
+Content-Type: application/json
+
+{
+    "firstName" : "Brenden",
+    "lastName" : "Kemmerling",
+    "username" : "brenden",
+    "password": "bad-password",
+    "email": "test@gmail.com",
+    "passhash": "duwend",
+    
+}
